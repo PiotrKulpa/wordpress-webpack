@@ -1,0 +1,83 @@
+.site-header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.site-branding {
+	width: 25%;
+}
+
+.main-navigation {
+	margin: auto;
+	align-self: center;
+}
+
+.nav-search {
+	font-size: 2em;
+	font-weight: lighter;
+	cursor: pointer;
+}
+
+.nav-search-input-wrapper {
+	visibility: hidden;
+	width: 100vw;
+	height: 100vh;
+	position: fixed !important;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+
+	.nav-search-input {
+		width: 50%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		.search-field {
+			width: 70%;
+			background: transparent;
+    	border: none;
+			border-bottom: 3px solid white;
+			color: white;
+			font-size: 2em;
+			font-weight: 100;
+
+			&:focus {
+				outline: none;
+			}
+
+			&::placeholder {
+				color: white;
+			}
+		}
+
+		.search-submit {
+			height: 50px;
+			width: 50px;
+			margin-left: -50px;
+			background: transparent !important;
+			border: none;
+			cursor: pointer;
+		}
+
+		&::before {
+			content: "a";
+		}
+	}
+
+	.nav-search-close {
+		color: white;
+		font-size: 2.5em;
+		text-align: right;
+		margin-bottom: 55px;
+		cursor: pointer;
+	}
+
+	.nav-submit-icon {
+		color: white;
+		margin-left: -40px;
+		font-size: 2em;
+		cursor: pointer;
+	}
+}
