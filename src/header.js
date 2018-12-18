@@ -32,4 +32,4 @@ const header = () => {
 
 }
 
-export { header };
+export default header;

@@ -17,15 +17,18 @@
     "babel-loader": "^8.0.4",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
     "mini-css-extract-plugin": "^0.4.5",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "font-awesome": "^4.7.0"
+    "@fortawesome/fontawesome-free": "^5.6.1",
+    "jquery": "^3.3.1"
   }
 }
